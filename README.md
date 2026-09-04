@@ -426,22 +426,18 @@ The current baseline uses a simple and intentionally transparent fusion strategy
 
 Let:
 
-* \(C_{8.1}\) = V8.1 complexity
-* \(C_9\) = V9 complexity
+* $$\(C_{8.1}\)$$ = V8.1 complexity
+* $$\(C_9\)$$ = V9 complexity
 
 Then:
 
-$$
-C_H = 0.5C_{8.1} + 0.5C_9
-$$
+$$C_H = 0.5C_{8.1} + 0.5C_9$$
 
 ## Behavioral Demand Index
 
 Similarly:
 
-$$
-BDI_H = 0.5BDI_{8.1} + 0.5BDI_9
-$$
+$$BDI_H = 0.5BDI_{8.1} + 0.5BDI_9$$
 
 The 50/50 configuration is deliberately used as a **baseline**, not as a claim that 50/50 is mathematically optimal.
 
@@ -472,15 +468,11 @@ where the first value represents the V8.1 contribution.
 
 For complexity:
 
-$$
-C_H(w)=wC_{8.1}+(1-w)C_9
-$$
+$$C_H(w)=wC_{8.1}+(1-w)C_9$$
 
 For BDI:
 
-$$
-BDI_H(w)=wBDI_{8.1}+(1-w)BDI_9
-$$
+$$BDI_H(w)=wBDI_{8.1}+(1-w)BDI_9$$
 
 The purpose is to measure **ranking stability**.
 
@@ -704,18 +696,7 @@ Instead, allocation considers multiple constraints.
 
 Conceptually:
 
-$$
-Allocation =
-f(
-Complexity,
-BDI,
-Priority,
-Risk,
-Resolution,
-Codec,
-Budget
-)
-$$
+$$Allocation =f(Complexity,BDI,Priority,Risk,Resolution,Codec,Budget)$$
 
 The allocation engine should account for:
 
@@ -737,9 +718,7 @@ The allocation engine should account for:
 
 The current broadcast experiment targets:
 
-$$
-R_{transport}=30\text{ Mb/s}
-$$
+$$R_{transport}=30\text{ Mb/s}$$
 
 This is the **total MPEG-TS transport budget**.
 
@@ -768,23 +747,11 @@ Therefore the allocator must reserve a configurable amount of budget for non-vid
 
 Conceptually:
 
-$$
-R_{payload}
-=
-R_{transport}
--
-R_{overhead}
--
-R_{audio}
-$$
+$$R_{payload}=R_{transport}-R_{overhead}-R_{audio}$$
 
 Then:
 
-$$
-\sum_i R_{video,i}
-\leq
-R_{payload}
-$$
+$$\sum_i R_{video,i}\leqR_{payload}$$
 
 The final transport rate should be verified independently with FFprobe.
 
@@ -937,10 +904,7 @@ Video
 
 This enables the project to learn:
 
-$$
-Bitrate^* =
-f(Content\ Intelligence,\ Resolution,\ Codec,\ Quality\ Target)
-$$
+$$Bitrate^* =f(Content\ Intelligence,\ Resolution,\ Codec,\ Quality\ Target)$$
 
 rather than assuming such a mapping.
 
@@ -1157,17 +1121,7 @@ The comparison layer can evaluate:
 
 The goal is to establish a closed experimental loop:
 
-$$
-Analyze
-\rightarrow
-Allocate
-\rightarrow
-Encode
-\rightarrow
-Measure
-\rightarrow
-Compare
-$$
+$$Analyze\rightarrowAllocate\rightarrowEncode\rightarrowMeasure\rightarrowCompare$$
 
 ---
 
@@ -1348,22 +1302,17 @@ This introduces the concept of **degradation cost**.
 
 A future formulation can be expressed as:
 
-$$
-\min_{\mathbf{R},\mathbf{Q}}
-\sum_i D_i(R_i,Q_i)
-$$
+$$\min_{\mathbf{R},\mathbf{Q}}\sum_i D_i(R_i,Q_i)$$
 
 subject to:
 
-$$
-\sum_i R_i \leq R_{transport}
-$$
+$$\sum_i R_i \leq R_{transport}$$
 
 where:
 
-* \(R_i\) is allocated bitrate,
-* \(Q_i\) represents resolution/quality configuration,
-* \(D_i\) represents the estimated degradation cost.
+* $$\(R_i\)$$ is allocated bitrate,
+* $$\(Q_i\)$$ represents resolution/quality configuration,
+* $$\(D_i\)$$ represents the estimated degradation cost.
 
 The intelligence layer can provide features to estimate the relative cost of degrading each stream.
 
@@ -1391,9 +1340,7 @@ This is useful for architecture validation but insufficient for broad statistica
 
 There is currently no claim that:
 
-$$
-Complexity \rightarrow Exact\ Bitrate
-$$
+$$Complexity \rightarrow Exact\ Bitrate$$
 
 The project must empirically learn such a mapping.
 
@@ -1781,13 +1728,9 @@ ASTCIE creates several research directions.
 
 ## Q1 — Does hybrid intelligence outperform individual analyzers?
 
-$$
-HIL > V8.1?
-$$
+$$HIL > V8.1?$$
 
-$$
-HIL > V9?
-$$
+$$HIL > V9?$$
 
 The answer should be established empirically.
 
