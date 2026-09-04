@@ -1,0 +1,2 @@
+﻿video,encoded,v81_before,v9_before,hybrid_before,bdi_before,v81_after,v9_after,hybrid_after,bdi_after,delta_hybrid,delta_bdi,regime_before,regime_after,encoded_bitrate_mbps,duration_s,width,height,codec
+TV7.mp4,wrapper_results\TV7\TV7_astcie.mp4,0.40726362285311646,0.4206670367666163,0.4139653298098664,0.38786573877414,0.40717113503696817,0.4206920142707703,0.4139315746538692,0.38786954698956927,-3.375515599718382e-05,3.80821542927956e-06,HEAVY-TAIL-RISK,HEAVY-TAIL-RISK,11.354912,1768.687007,1920,1080,h264

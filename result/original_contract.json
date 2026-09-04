@@ -1,0 +1,32 @@
+{
+  "schema": "astcie-wrapper/v2",
+  "timestamp_utc": "2026-08-18T17:59:04.155316+00:00",
+  "input": "TV7.mp4",
+  "engines": {
+    "v8_1": {
+      "complexity": 0.40726362285311646,
+      "bdi": 0.42190388626026964
+    },
+    "v9": {
+      "complexity": 0.4206670367666163,
+      "bdi": 0.35382759128801033,
+      "adci_temporal": 0.4177609476168451,
+      "adci_spatial": 0.3230172686427389,
+      "risk": null,
+      "regime": "HEAVY-TAIL-RISK"
+    }
+  },
+  "hybrid": {
+    "weight_v81": 0.5,
+    "weight_v9": 0.5,
+    "complexity": 0.4139653298098664,
+    "bdi": 0.38786573877414
+  },
+  "encoding_policy": {
+    "encode_mode": "bitrate",
+    "bitrate_mode": "bdi",
+    "reference_bitrate_mbps": 30.0,
+    "selected_bitrate_mbps": 11.6359721632242,
+    "crf": null
+  }
+}

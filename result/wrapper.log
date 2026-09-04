@@ -1,0 +1,134 @@
+2026-08-18 09:05:31 | INFO     | Mode: Single Video | Videos: 1
+2026-08-18 09:05:31 | INFO     | ▶ Processing: TV7.mp4
+2026-08-18 09:05:31 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity7.py TV7.mp4
+2026-08-18 09:05:31 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity8.py TV7.mp4
+2026-08-18 09:31:52 | ERROR    | Command failed (1)
+2026-08-18 09:31:52 | ERROR    | Traceback (most recent call last):
+  File "E:\PROJECT\complexity8.py", line 3625, in main
+    process_single(
+  File "E:\PROJECT\complexity8.py", line 3307, in process_single
+    create_dashboard(
+  File "E:\PROJECT\complexity8.py", line 2376, in create_dashboard
+    success(
+  File "E:\PROJECT\complexity8.py", line 201, in success
+    console.print(
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 1704, in print
+    with self:
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 820, in _exit_buffer
+    self._check_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2055, in _check_buffer
+    self._write_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2091, in _write_buffer
+    legacy_windows_render(buffer, LegacyWindowsTerm(self.file))
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_windows_renderer.py", line 19, in legacy_windows_render
+    term.write_text(text)
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_win32_console.py", line 402, in write_text
+    self.write(text)
+  File "C:\Program Files\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 11: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PROJECT\complexity8.py", line 3647, in <module>
+    main()
+  File "E:\PROJECT\complexity8.py", line 3634, in main
+    error(
+  File "E:\PROJECT\complexity8.py", line 213, in error
+    console.print(
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 1704, in print
+    with self:
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 820, in _exit_buffer
+    self._check_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2055, in _check_buffer
+    self._write_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2091, in _write_buffer
+    legacy_windows_render(buffer, LegacyWindowsTerm(self.file))
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_windows_renderer.py", line 19, in legacy_windows_render
+    term.write_text(text)
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_win32_console.py", line 402, in write_text
+    self.write(text)
+  File "C:\Program Files\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 11: character maps to <undefined>
+2026-08-18 09:31:52 | ERROR    | Command failed (1)
+2026-08-18 09:31:52 | ERROR    | Traceback (most recent call last):
+  File "E:\PROJECT\complexity7.py", line 2797, in main
+    create_dashboard(
+  File "E:\PROJECT\complexity7.py", line 2198, in create_dashboard
+    success(
+  File "E:\PROJECT\complexity7.py", line 249, in success
+    console.print(
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 1704, in print
+    with self:
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 820, in _exit_buffer
+    self._check_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2055, in _check_buffer
+    self._write_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2091, in _write_buffer
+    legacy_windows_render(buffer, LegacyWindowsTerm(self.file))
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_windows_renderer.py", line 19, in legacy_windows_render
+    term.write_text(text)
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_win32_console.py", line 402, in write_text
+    self.write(text)
+  File "C:\Program Files\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 11: character maps to <undefined>
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "E:\PROJECT\complexity7.py", line 2903, in <module>
+    main()
+  File "E:\PROJECT\complexity7.py", line 2890, in main
+    error(
+  File "E:\PROJECT\complexity7.py", line 261, in error
+    console.print(
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 1704, in print
+    with self:
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 864, in __exit__
+    self._exit_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 820, in _exit_buffer
+    self._check_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2055, in _check_buffer
+    self._write_buffer()
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\console.py", line 2091, in _write_buffer
+    legacy_windows_render(buffer, LegacyWindowsTerm(self.file))
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_windows_renderer.py", line 19, in legacy_windows_render
+    term.write_text(text)
+  File "C:\Users\Zeynoth\AppData\Roaming\Python\Python311\site-packages\rich\_win32_console.py", line 402, in write_text
+    self.write(text)
+  File "C:\Program Files\Python311\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2192' in position 11: character maps to <undefined>
+2026-08-18 09:44:32 | INFO     | Mode: Single Video | Videos: 1
+2026-08-18 09:44:32 | INFO     | ▶ Processing: TV7.mp4
+2026-08-18 09:44:32 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity7.py TV7.mp4
+2026-08-18 09:44:32 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity8.py TV7.mp4
+2026-08-18 10:00:51 | ERROR    | Failed TV7.mp4: 'V8.1 JSON missing complexity/bdi'
+2026-08-18 10:00:51 | INFO     | All done. Total time: 979.33s
+2026-08-18 10:21:08 | INFO     | Mode: Single Video | Videos: 1
+2026-08-18 10:21:08 | INFO     | ▶ Processing: TV7.mp4
+2026-08-18 10:21:08 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity7.py TV7.mp4
+2026-08-18 10:21:08 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity8.py TV7.mp4
+2026-08-18 10:36:56 | DEBUG    | Running: ffmpeg -y -i TV7.mp4 -map 0:v:0 -map 0:a? -c:v libx264 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k -b:v 11636k -maxrate 11636k -bufsize 23272k wrapper_results\TV7\TV7_astcie.mp4
+2026-08-18 10:41:43 | INFO     | Mode: Single Video | Videos: 1
+2026-08-18 10:41:43 | INFO     | ▶ Processing: TV7.mp4
+2026-08-18 10:41:43 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity7.py TV7.mp4
+2026-08-18 10:41:43 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity8.py TV7.mp4
+2026-08-18 10:59:04 | DEBUG    | Running: ffmpeg -y -i TV7.mp4 -map 0:v:0 -map 0:a? -c:v libx264 -preset medium -pix_fmt yuv420p -c:a aac -b:a 192k -b:v 11636k -maxrate 11636k -bufsize 23272k wrapper_results\TV7\TV7_astcie.mp4
+2026-08-18 11:42:18 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity7.py wrapper_results\TV7\TV7_astcie.mp4
+2026-08-18 11:42:18 | DEBUG    | Running: C:\Program Files\Python311\python.exe complexity8.py wrapper_results\TV7\TV7_astcie.mp4
+2026-08-18 12:01:38 | INFO     | ✔ Finished: TV7.mp4 (4794.72s)
+2026-08-18 12:01:38 | INFO     | All done. Total time: 4794.74s

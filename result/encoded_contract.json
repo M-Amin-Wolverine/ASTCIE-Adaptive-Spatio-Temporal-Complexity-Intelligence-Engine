@@ -1,0 +1,22 @@
+{
+  "engines": {
+    "v8_1": {
+      "complexity": 0.40717113503696817,
+      "bdi": 0.4218584159136232
+    },
+    "v9": {
+      "complexity": 0.4206920142707703,
+      "bdi": 0.3538806780655153,
+      "adci_temporal": 0.4177764046223419,
+      "adci_spatial": 0.3230860862496806,
+      "risk": null,
+      "regime": "HEAVY-TAIL-RISK"
+    }
+  },
+  "hybrid": {
+    "weight_v81": 0.5,
+    "weight_v9": 0.5,
+    "complexity": 0.4139315746538692,
+    "bdi": 0.38786954698956927
+  }
+}
