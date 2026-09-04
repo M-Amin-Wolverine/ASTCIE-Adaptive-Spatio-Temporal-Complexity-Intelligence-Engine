@@ -1,0 +1,79 @@
+{
+  "version": "8.1.0-ULTIMATE",
+  "video": "TV8.mp4",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "source_fps": 50.0,
+  "analysis_fps": 25.0,
+  "frame_count": 24708,
+  "duration": 494.16,
+  "analysis_width": 640,
+  "sample_count": 12353,
+  "medad": {
+    "p10": 1.0,
+    "p25": 1.0,
+    "p50": 2.0,
+    "p75": 4.0,
+    "p90": 7.0,
+    "p95": 8.0,
+    "p99": 20.0,
+    "max": 71.0,
+    "iqr": 3.0,
+    "mad": 1.0,
+    "mean": 3.2885938638387437
+  },
+  "spatial": {
+    "si_p10": 74.49761505126953,
+    "si_p25": 89.9727554321289,
+    "si_p50": 99.50517272949219,
+    "si_p75": 109.27959442138672,
+    "si_p90": 117.24730224609375,
+    "si_p95": 122.80477142333984,
+    "si_p99": 160.7753594970703,
+    "si_max": 168.0037078857422,
+    "si_iqr": 19.306838989257812,
+    "si_mad": 9.679664611816406,
+    "si_sustained": 0.8486777164444935,
+    "si_burst": 0.14728794874417495,
+    "si_tail": 0.17140624604693916
+  },
+  "motion_occupancy": 0.2739870972919309,
+  "motion_magnitude": 10.861456856240501,
+  "motion_score": 0.376716979839237,
+  "motion_normalization": {
+    "p10": 3.75978125,
+    "p50": 10.304327256944445,
+    "p90": 17.89877951388889,
+    "p99": 34.07602777777772
+  },
+  "texture_mean": 1468.529461961808,
+  "texture_score": 0.5624362734832129,
+  "texture_normalization": {
+    "p10": 506.24322035731944,
+    "p50": 1528.1797518113876,
+    "p90": 2217.1681499408487,
+    "p99": 3521.7105296747677
+  },
+  "scene_changes": 0,
+  "scene_changes_per_minute": 0.0,
+  "event_score": 0.0,
+  "temporal": {
+    "sustained_score": 0.2857142857142857,
+    "burst_score": 0.4375,
+    "tail_score": 0.35714285714285715,
+    "extreme_score": 0.44375,
+    "dispersion_score": 0.42857142857142855,
+    "rtci": 0.3517857142857143
+  },
+  "spatial_score": 0.537875980439903,
+  "temporal_score": 0.38379464285714293,
+  "segment_variability": 0.13289914527418012,
+  "v8_fusion_score": 0.39372940998681244,
+  "bit_demand_index": 0.4298380848247893,
+  "content_regime": "SPARSE-EXTREME",
+  "complexity_class": "Moderate",
+  "event_count": 3,
+  "processing_seconds": 700.0413661003113
+}

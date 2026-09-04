@@ -1,0 +1,79 @@
+{
+  "version": "8.1.0-ULTIMATE",
+  "video": "wrapper_results\\TV7\\TV7_astcie.mp4",
+  "resolution": {
+    "width": 1920,
+    "height": 1080
+  },
+  "source_fps": 25.0,
+  "analysis_fps": 25.0,
+  "frame_count": 44216,
+  "duration": 1768.64,
+  "analysis_width": 640,
+  "sample_count": 44215,
+  "medad": {
+    "p10": 0.0,
+    "p25": 1.0,
+    "p50": 2.0,
+    "p75": 3.0,
+    "p90": 6.0,
+    "p95": 9.0,
+    "p99": 26.0,
+    "max": 147.0,
+    "iqr": 2.0,
+    "mad": 1.0,
+    "mean": 2.9582607712314823
+  },
+  "spatial": {
+    "si_p10": 58.78906936645508,
+    "si_p25": 73.79898071289062,
+    "si_p50": 94.62578582763672,
+    "si_p75": 119.49409484863281,
+    "si_p90": 136.36847534179688,
+    "si_p95": 144.682942199707,
+    "si_p99": 159.40310119628907,
+    "si_max": 174.8331756591797,
+    "si_iqr": 45.69511413574219,
+    "si_mad": 22.845741271972656,
+    "si_sustained": 0.6938978058562627,
+    "si_burst": 0.18014180034155217,
+    "si_tail": 0.14611432444041567
+  },
+  "motion_occupancy": 0.2202289989060714,
+  "motion_magnitude": 9.026415465740323,
+  "motion_score": 0.32966239230863154,
+  "motion_normalization": {
+    "p10": 1.8136145833333333,
+    "p50": 7.029856770833334,
+    "p90": 17.378090277777776,
+    "p99": 41.194889670138934
+  },
+  "texture_mean": 1273.347926843489,
+  "texture_score": 0.4215016615814749,
+  "texture_normalization": {
+    "p10": 242.31396262338146,
+    "p50": 999.446218022834,
+    "p90": 2688.4109966224087,
+    "p99": 4448.592566673627
+  },
+  "scene_changes": 40,
+  "scene_changes_per_minute": 1.3569748507327664,
+  "event_score": 0.04523249502442554,
+  "temporal": {
+    "sustained_score": 0.3333333333333333,
+    "burst_score": 0.375,
+    "tail_score": 0.5416666666666666,
+    "extreme_score": 0.7067307692307693,
+    "dispersion_score": 0.3333333333333333,
+    "rtci": 0.38333333333333336
+  },
+  "spatial_score": 0.4559021081944157,
+  "temporal_score": 0.46184294871794873,
+  "segment_variability": 0.17746813322807206,
+  "v8_fusion_score": 0.40717113503696817,
+  "bit_demand_index": 0.4218584159136232,
+  "content_regime": "SPARSE-EXTREME",
+  "complexity_class": "Moderate",
+  "event_count": 89,
+  "processing_seconds": 1139.814126253128
+}
